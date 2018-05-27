@@ -15,6 +15,7 @@
 		5672A92F20BAB7B9006FC9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5672A92D20BAB7B9006FC9BA /* LaunchScreen.storyboard */; };
 		5672A93A20BAB7B9006FC9BA /* Photo_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672A93920BAB7B9006FC9BA /* Photo_BookTests.swift */; };
 		5672A94520BAB7B9006FC9BA /* Photo_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672A94420BAB7B9006FC9BA /* Photo_BookUITests.swift */; };
+		5672A95320BABF3D006FC9BA /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672A95220BABF3D006FC9BA /* detailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5672A94020BAB7B9006FC9BA /* Photo BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5672A94420BAB7B9006FC9BA /* Photo_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_BookUITests.swift; sourceTree = "<group>"; };
 		5672A94620BAB7B9006FC9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5672A95220BABF3D006FC9BA /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5672A92120BAB7B8006FC9BA /* AppDelegate.swift */,
 				5672A92320BAB7B8006FC9BA /* ViewController.swift */,
 				5672A92520BAB7B8006FC9BA /* Main.storyboard */,
+				5672A95220BABF3D006FC9BA /* detailsVC.swift */,
 				5672A92B20BAB7B9006FC9BA /* Assets.xcassets */,
 				5672A92D20BAB7B9006FC9BA /* LaunchScreen.storyboard */,
 				5672A93020BAB7B9006FC9BA /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5672A92A20BAB7B8006FC9BA /* Photo_Book.xcdatamodeld in Sources */,
+				5672A95320BABF3D006FC9BA /* detailsVC.swift in Sources */,
 				5672A92420BAB7B8006FC9BA /* ViewController.swift in Sources */,
 				5672A92220BAB7B8006FC9BA /* AppDelegate.swift in Sources */,
 			);
