@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5672748F20BAD1F600CB77A6 /* choose.png in Resources */ = {isa = PBXBuildFile; fileRef = 5672748E20BAD1F600CB77A6 /* choose.png */; };
 		5672A92220BAB7B8006FC9BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672A92120BAB7B8006FC9BA /* AppDelegate.swift */; };
 		5672A92420BAB7B8006FC9BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672A92320BAB7B8006FC9BA /* ViewController.swift */; };
 		5672A92720BAB7B8006FC9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5672A92520BAB7B8006FC9BA /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5672748E20BAD1F600CB77A6 /* choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose.png; path = ../../../choose.png; sourceTree = "<group>"; };
 		5672A91E20BAB7B8006FC9BA /* Photo Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5672A92120BAB7B8006FC9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5672A92320BAB7B8006FC9BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		5672A92020BAB7B8006FC9BA /* Photo Book */ = {
 			isa = PBXGroup;
 			children = (
+				5672748E20BAD1F600CB77A6 /* choose.png */,
 				5672A92120BAB7B8006FC9BA /* AppDelegate.swift */,
 				5672A92320BAB7B8006FC9BA /* ViewController.swift */,
 				5672A92520BAB7B8006FC9BA /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				5672A92F20BAB7B9006FC9BA /* LaunchScreen.storyboard in Resources */,
 				5672A92C20BAB7B9006FC9BA /* Assets.xcassets in Resources */,
+				5672748F20BAD1F600CB77A6 /* choose.png in Resources */,
 				5672A92720BAB7B8006FC9BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
