@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class detailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -39,6 +40,28 @@ class detailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
     }
     
     @IBAction func saveButtonClicked(_ sender: Any) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let newPhotos = NSEntityDescription.insertNewObject(forEntityName: "Photos", into: context)
+        
+        newPhotos.setValue(photoNameText.text!, forKey: "photoName")
+        newPhotos.setValue(photographerText.text!, forKey: "photographer")
+        
+        if let date = Int(dateText.text!) {
+            newPhotos.setValue(date, forKey: "date")
+        }
+        
+        let data = UIImageJPEGRepresentation(imageView.image!, 0.5)
+        newPhotos.setValue(data, forKey: "image")
+        
+        do{
+            try context.save()
+            print("Successfully saved")
+        }catch{
+            print("Error")
+        }
+        
     }
     
 }

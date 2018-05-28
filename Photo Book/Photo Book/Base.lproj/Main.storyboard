@@ -58,6 +58,10 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="choose.png" translatesAutoresizingMaskIntoConstraints="NO" id="gFb-p7-5oI">
                                 <rect key="frame" x="52" y="132" width="270" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="FVA-Nk-dvH"/>
+                                    <constraint firstAttribute="width" constant="270" id="zCy-eG-prh"/>
+                                </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="photo name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Etf-xw-IvM">
                                 <rect key="frame" x="85" y="316" width="204" height="30"/>
